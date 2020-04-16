@@ -8,5 +8,5 @@ COPY ./package.json ./
 RUN npm install
 COPY ./ ./
 
-# Default command to atart app
+# Default command to start the app
 CMD ["npm","start"]
